@@ -1,0 +1,8 @@
+# Ignore compiled files
+*.class
+
+# Ignore IDE settings
+.classpath
+.project
+.settings/
+bin/
