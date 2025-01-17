@@ -46,6 +46,28 @@ This project implements a file system explorer in Java using a tree-like data st
 ### Running the Project
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/hzeesha/File-System-Explorer.git
    cd File-System-Explorer
-2. 
+2. **Compile the Java Files**:
+   ```bash
+   javac src/*.java
+   ```
+3. **Run the Main Program**:
+   ```bash
+   java -cp src FileSystem
+   ```
+4. **Interact with the GUI**:
+- Select a folder or file to explore.
+- Use the options provided to print the structure, filter files, or search for specific files.
+
+## Files Included
+### Implemented Classes:
+- NLNode.java: Represents a node in the file system tree.
+- FileStructure.java: Builds and manipulates the tree structure.
+- FileSystem.java: Main class for GUI integration.
+- FileObject.java: Represents files and directories.
+- ListNodes.java: Manages the list of children for each node.
+- Other Utility Classes: NameComparator, SizeComparator, PrintFileStructure, etc.
+
+## Contributing
+Contributions are welcome! Feel free to fork this repository, submit pull requests, or open issues.
